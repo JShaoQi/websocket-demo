@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GreetingController {
 
+
+
     /**
      * @MessageMapping 注解确保如果将消息发送到目标/ hello，则会调用greeting()方法。
      * @SendTo 广播给所有订阅者
